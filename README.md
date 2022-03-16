@@ -1,12 +1,9 @@
 # README
 
 ### Python script to find specific ethereum addresses that start with a predefined hex word.
-#
-
-Ethereum addressses 
 
 You get a public address for your account by taking the last 20 bytes of the Keccak-256 hash of the public key and adding 0x to the beginning.
-#
+
 *The "0x" prefix means hexadecimal and it's a way to tell programs, contracts, APIs that the input should be interpreted as a hexadecimal number.*
 
 more info and credit -> https://ethereum.stackexchange.com/questions/503/what-is-the-0x-i-see-around-ethereum-for-example-i-see-addresses-that-start-wit
@@ -14,9 +11,6 @@ more info and credit -> https://ethereum.stackexchange.com/questions/503/what-is
 Usually the public key is generated from the private key using the Elliptic Curve Digital Signature Algorithm, this means we do not have any direct control over how the public key will look like.
 
 more info -> https://ethereum.org/en/developers/docs/accounts/
-#
-## external library eth-account
-more info -> https://pypi.org/project/eth-account/
 #
 With this script you can try and force find specific ethereum addresses that start with what can be called hex words. Words that can be represented using hex values.
 
@@ -28,7 +22,7 @@ more info on hex words -> https://en.wikipedia.org/wiki/Hexspeak,
 https://www.calculator.net/hex-calculator.html
 
 
-# run
+# how to run
 #### prerequisites
 ### ->linux
 install python3 -> https://www.python.org/downloads/,
@@ -37,7 +31,9 @@ install git -> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 install python -> https://www.python.org/downloads/release/python-3102/,
 intall git -> https://git-scm.com/download/win,
 install microsoft c++ build tools -> https://visualstudio.microsoft.com/visual-cpp-build-tools/
-#
+### ->external python library (eth-account)
+more info -> https://pypi.org/project/eth-account/
+
 ```[extra]```consider using a virtual environment in order not to break dependencies, more info -> https://docs.python.org/3/library/venv.html
 #
 ### linux
@@ -53,6 +49,7 @@ python3 -m pip install eth-account;git clone https://github.com/softspork/find-e
 ![demo](https://user-images.githubusercontent.com/86022395/158577758-46016735-644b-4395-89ae-b29e069e2cb7.gif)
 #
 ### windows
+Open Command Prompt (cmd.exe)
 ```cmd
 pip install eth-account
 git clone https://github.com/softspork/find-eth-address.git
