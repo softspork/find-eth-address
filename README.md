@@ -76,3 +76,7 @@ this is were the public and private keys will be saved.
 this is were you define what hex words to search for.
 ![image](https://user-images.githubusercontent.com/86022395/158573566-c86e9843-658d-4e14-86c7-108577f49e5f.png)
 #
+### Example on Opensea
+![image](https://user-images.githubusercontent.com/86022395/158588020-c1ec8fcf-f327-4800-95a2-b6ea466d5349.png)
+### Example on Web3 games with leaderboards. Below example is for https://www.arcadenfts.com tournaments.
+![image](https://user-images.githubusercontent.com/86022395/158588909-d7d49cb9-8f2d-4be3-96c5-320c809f1893.png)
