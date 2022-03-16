@@ -61,19 +61,19 @@ or all in one take
 pip install eth-account && git clone https://github.com/softspork/find-eth-address.git && cd find-eth-address && python3 find.py
 ```
 #
-## 1.4) Usage example
+### 1.4) Usage example
 using 123,111,222 as demo hex words to preview how it works
 
 ![demo2](https://user-images.githubusercontent.com/86022395/158577775-4e864190-405c-4b5c-8576-9f82e980d7db.gif)
 #
-## 1.5) found.txt
+### 1.5) found.txt
 
 this is were the public and private keys will be saved.
 
 ![image](https://user-images.githubusercontent.com/86022395/158565749-d4b36668-8e32-461e-bbd7-963e8167fdd9.png)
 ![image](https://user-images.githubusercontent.com/86022395/158571165-df450f78-acfc-4e72-816a-e5e6f1752fc2.png)
 #
-## 1.6) words.txt
+### 1.6) words.txt
 this is were you define what hex words to search for.
 ![image](https://user-images.githubusercontent.com/86022395/158573566-c86e9843-658d-4e14-86c7-108577f49e5f.png)
 #
