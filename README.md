@@ -18,7 +18,7 @@ e.q. be in the /find-eth-address/ folder, and run "python3 find.py".
 
 To stop the script press CTRL + C, or depending on system and keyboard option^ + C.
 #
-## 1) prerequisites
+### 1) prerequisites
 ### 1.1) for linux
 install python3 -> https://www.python.org/downloads/,
 install git -> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -27,7 +27,8 @@ install python -> https://www.python.org/downloads/release/python-3102/,
 intall git -> https://git-scm.com/download/win,
 install microsoft c++ build tools -> https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-```[extra]``` 1.1a) optinally, consider using a virtual environment in order not to break dependencies, more info -> https://docs.python.org/3/library/venv.html
+### 1.1a) both extra
+optinally, consider using a virtual environment in order not to break dependencies, more info -> https://docs.python.org/3/library/venv.html
 #
 ### 1.2) both external python library (eth-account)
 this will be installed via the command below in (1.3).
