@@ -35,7 +35,6 @@ install microsoft c++ build tools -> https://visualstudio.microsoft.com/visual-c
 more info -> https://pypi.org/project/eth-account/
 
 ```[extra]```consider using a virtual environment in order not to break dependencies, more info -> https://docs.python.org/3/library/venv.html
-#
 ### linux
 ```bash
 python3 -m pip install eth-account
@@ -47,7 +46,6 @@ python3 find.py
 python3 -m pip install eth-account;git clone https://github.com/softspork/find-eth-address.git;cd find-eth-address;python3 find.py
 ```
 ![demo](https://user-images.githubusercontent.com/86022395/158577758-46016735-644b-4395-89ae-b29e069e2cb7.gif)
-#
 ### windows
 Open Command Prompt (cmd.exe)
 ```cmd
@@ -61,18 +59,17 @@ python3 find.py
 pip install eth-account && git clone https://github.com/softspork/find-eth-address.git && cd find-eth-address && python3 find.py
 ```
 #
-#### using 123,111,222 as demo hex words to preview how it works
+#### Usage example
+using 123,111,222 as demo hex words to preview how it works
+
 ![demo2](https://user-images.githubusercontent.com/86022395/158577775-4e864190-405c-4b5c-8576-9f82e980d7db.gif)
-#
 ## found.txt
 this is were the public and private keys will be saved.
 ![image](https://user-images.githubusercontent.com/86022395/158565749-d4b36668-8e32-461e-bbd7-963e8167fdd9.png)
 ![image](https://user-images.githubusercontent.com/86022395/158571165-df450f78-acfc-4e72-816a-e5e6f1752fc2.png)
-#
 ## words.txt
 this is were you define what hex words to search for.
 ![image](https://user-images.githubusercontent.com/86022395/158573566-c86e9843-658d-4e14-86c7-108577f49e5f.png)
-#
 ### Example on Opensea
 ![image](https://user-images.githubusercontent.com/86022395/158588020-c1ec8fcf-f327-4800-95a2-b6ea466d5349.png)
 ### Example on Web3 games with leaderboards. Below example is for https://www.arcadenfts.com tournaments.
