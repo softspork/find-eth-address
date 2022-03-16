@@ -12,7 +12,7 @@ Usually the public key is generated from the private key using the Elliptic Curv
 
 more info -> https://ethereum.org/en/developers/docs/accounts/
 # how to run
-Everytime you want to start the script, you will need to have the downloaded folder as current working directory in your PATH. 
+Everytime you want to start the script, you will need to have the downloaded folder as current working directory. 
 
 e.q. be in the /find-eth-address/ folder, and run "python3 find.py".
 
